@@ -132,6 +132,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
           artifactErrorsFailBuild: true
+          allowUpdates: true
+          replacesArtifacts: true        # optional: replace instead of append
 
       - name: Sleep for 10 seconds
         run: |
