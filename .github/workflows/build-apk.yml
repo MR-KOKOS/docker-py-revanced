@@ -147,10 +147,30 @@ jobs:
           assets_response=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
             "https://api.github.com/repos/${{ github.repository }}/releases/$release_id/assets")
           
-          # If specific apps were built, only delete matching APK assets; otherwise delete all APK assets
-          if [ -n "$APPS" ]; then
+          # Determine which apps we're actually uploading (based on existing APK files)
+          # This prevents deleting assets for apps that failed to build
+          built_apps=""
+          for apk in apks/*-output.apk; do
+            if [ -f "$apk" ]; then
+              # Extract app name from filename: Re{APP_NAME}-Version...
+              app_name=$(basename "$apk" | sed 's/^Re//' | sed 's/-Version.*//')
+              if [ -n "$built_apps" ]; then
+                built_apps="${built_apps},${app_name}"
+              else
+                built_apps="${app_name}"
+              fi
+            fi
+          done
+          
+          echo "APKs found for apps: $built_apps"
+          
+          # Use built apps for filtering if available, otherwise fall back to APPS input
+          if [ -n "$built_apps" ]; then
+            echo "Only deleting assets for successfully built apps"
+            pattern=$(echo "$built_apps" | tr ',' '|')
+            asset_ids=$(echo "$assets_response" | jq -r ".[] | select(.name | test(\"^Re(${pattern})\")) | .id")
+          elif [ -n "$APPS" ]; then
             echo "Filtering assets for apps: $APPS"
-            # Build a regex pattern for matching apps (e.g., Rewindy, YOUTUBE_ANDEA)
             pattern=$(echo "$APPS" | tr ',' '|')
             asset_ids=$(echo "$assets_response" | jq -r ".[] | select(.name | test(\"^Re(${pattern})\")) | .id")
           else
