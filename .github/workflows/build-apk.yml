@@ -128,35 +128,46 @@ jobs:
       - name: Delete existing assets on latest release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           APPS: ${{ inputs.PREFERRED_PATCH_APPS }}
-        continue-on-error: true
         run: |
-          if release_id=$(gh api repos/${{ github.repository }}/releases/tags/latest --jq '.id' 2>/dev/null); then
-            echo "Found latest release: $release_id"
-          else
-            echo "No existing latest release found; skipping cleanup"
+          set -e
+          echo "Fetching release info for tag 'latest'..."
+          release_response=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/latest")
+          
+          release_id=$(echo "$release_response" | jq -r '.id // empty')
+          if [ -z "$release_id" ] || [ "$release_id" = "null" ]; then
+            echo "No existing 'latest' release found; skipping cleanup"
             exit 0
           fi
-          # If specific apps were built, only delete their APK assets; otherwise delete all assets.
+          
+          echo "Found release ID: $release_id"
+          
+          # Fetch all assets for this release
+          assets_response=$(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/$release_id/assets")
+          
+          # If specific apps were built, only delete matching APK assets; otherwise delete all APK assets
           if [ -n "$APPS" ]; then
-            apps_cleaned=0
-            for app in ${APPS//,/ }; do
-              asset_ids=$(gh api repos/${{ github.repository }}/releases/$release_id/assets \
-                --jq ".[] | select(.name | startswith(\"Re${app}\") and endswith(\"-output.apk\")) | .id" || true)
-              for id in $asset_ids; do
-                gh api -X DELETE repos/${{ github.repository }}/releases/$release_id/assets/$id || true
-              done
-              [ -n "$asset_ids" ] && apps_cleaned=$((apps_cleaned+1))
-            done
-            echo "Deleted assets for $apps_cleaned app(s) on latest release"
+            echo "Filtering assets for apps: $APPS"
+            # Build a regex pattern for matching apps (e.g., Rewindy, YOUTUBE_ANDEA)
+            pattern=$(echo "$APPS" | tr ',' '|')
+            asset_ids=$(echo "$assets_response" | jq -r ".[] | select(.name | test(\"^Re(${pattern})\")) | .id")
           else
-            asset_ids=$(gh api repos/${{ github.repository }}/releases/$release_id/assets --jq '.[].id' || true)
-            for id in $asset_ids; do
-              gh api -X DELETE repos/${{ github.repository }}/releases/$release_id/assets/$id || true
-            done
-            echo "No app filter provided; deleted all assets from latest release"
+            echo "No app filter; will delete all APK assets"
+            asset_ids=$(echo "$assets_response" | jq -r '.[] | select(.name | endswith("-output.apk")) | .id')
           fi
+          
+          # Delete each matching asset
+          deleted_count=0
+          for asset_id in $asset_ids; do
+            echo "Deleting asset ID: $asset_id"
+            curl -s -X DELETE -H "Authorization: Bearer $GITHUB_TOKEN" \
+              "https://api.github.com/repos/${{ github.repository }}/releases/assets/$asset_id" || true
+            deleted_count=$((deleted_count + 1))
+          done
+          
+          echo "Deleted $deleted_count asset(s)"
 
       - name: Upload Build Artifact
         uses: ncipollo/release-action@main
