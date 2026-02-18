@@ -196,6 +196,12 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
           name: "Build-${{ steps.get-date.outputs.date }}"
+          body: |
+            ## ReVanced Build
+
+            **Last Built:** ${{ steps.get-date.outputs.date }}
+
+            This release contains the latest patched APKs. See changelog files for details.
           allowUpdates: true
           replacesArtifacts: true
           artifactErrorsFailBuild: true
