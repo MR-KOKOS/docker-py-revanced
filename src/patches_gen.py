@@ -6,6 +6,8 @@ import subprocess
 from pathlib import Path
 from typing import Any
 
+from loguru import logger
+
 
 def extract_name_from_section(section: str) -> str | None:
     """Extract the name from a section."""
@@ -88,7 +90,12 @@ def parse_single_section(section: str) -> dict[str, Any]:
 
 def run_command_and_capture_output(patches_command: list[str]) -> str:
     """Run command and capture its output."""
-    result = subprocess.run(patches_command, capture_output=True, text=True, check=True)
+    result = subprocess.run(patches_command, capture_output=True, text=True, check=False)
+    if result.returncode != 0:
+        logger.error(f"Command failed: {' '.join(patches_command)}")
+        logger.error(f"stdout: {result.stdout}")
+        logger.error(f"stderr: {result.stderr}")
+        raise subprocess.CalledProcessError(result.returncode, patches_command, output=result.stdout, stderr=result.stderr)
     return result.stdout
 
 
