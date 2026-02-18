@@ -175,6 +175,7 @@ jobs:
           artifacts: "apks/*-output.apk,updates.json,changelog.json,changelog.md"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: latest
+          name: "Build-${{ steps.get-date.outputs.date }}"
           allowUpdates: true
           replacesArtifacts: true
           artifactErrorsFailBuild: true
