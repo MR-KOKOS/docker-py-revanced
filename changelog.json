@@ -1,1 +1,26 @@
-{}
+{
+    "ReVanced/GmsCore": {
+        "ResourceName": "[ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases/tag/v0.3.13.2.250932)",
+        "Version": "v0.3.13.2.250932",
+        "Changelog": "# Download\r\n\r\n| Default | Huawei |\r\n| -------- | -------- |\r\n| [Download](https://github.com/ReVanced/GmsCore/releases/download/v0.3.13.2.250932/app.revanced.android.gms-250932004-signed.apk) |  [Download](https://github.com/ReVanced/GmsCore/releases/download/v0.3.13.2.250932/app.revanced.android.gms-250932004-hw-signed.apk) |\r\n",
+        "PublishedOn": "2026-02-16T01:57:27Z"
+    },
+    "REAndroid/APKEditor": {
+        "ResourceName": "[REAndroid/APKEditor](https://github.com/REAndroid/APKEditor/releases/tag/V1.4.8)",
+        "Version": "V1.4.8",
+        "Changelog": "## What's Changed\r\n\r\n* Improve performance by @wchill in https://github.com/REAndroid/ARSCLib/pull/98\r\n* Update Decompile info on README.md by @yonggamer in https://github.com/REAndroid/APKEditor/pull/219\r\n\r\n\r\n**Full Changelog**: https://github.com/REAndroid/APKEditor/compare/V1.4.7...V1.4.8\r\n\r\n## New Contributors\r\n* @wchill made their first contribution in https://github.com/REAndroid/ARSCLib/pull/98",
+        "PublishedOn": "2026-03-21T13:30:55Z"
+    },
+    "MorpheApp/morphe-cli": {
+        "ResourceName": "[MorpheApp/morphe-cli](https://github.com/MorpheApp/morphe-cli/releases/tag/v1.8.1)",
+        "Version": "v1.8.1",
+        "Changelog": "## [1.8.1](https://github.com/MorpheApp/morphe-cli/compare/v1.8.0...v1.8.1) (2026-05-11)\n\n\n### Bug Fixes\n\n* Update to latest patcher ([a0bea3d](https://github.com/MorpheApp/morphe-cli/commit/a0bea3d7d308d992a637fb13d1f7c62b20340f9d))\n",
+        "PublishedOn": "2026-05-11T09:26:45Z"
+    },
+    "anddea/revanced-patches": {
+        "ResourceName": "[anddea/revanced-patches](https://github.com/anddea/revanced-patches/releases/tag/v4.0.1-dev.1)",
+        "Version": "v4.0.1-dev.1",
+        "Changelog": "## [4.0.1-dev.1](https://github.com/anddea/revanced-patches/compare/v4.0.0...v4.0.1-dev.1) (2026-05-15)\r\n\r\n> [!WARNING]  \r\n> Do not share your private data, such as API keys, in translations. I will no longer remove them on your behalf. Everyone who shared their API keys, rotate them immediately. \r\n\r\n### Bug Fixes\r\n\r\n* **YouTube Music:** `v6.2x.xx` failed to patch ([541263e](https://github.com/anddea/revanced-patches/commit/541263e74d6b8be88e6dd1007feb80c6077dbd77))\r\n\r\n\r\n\r\n",
+        "PublishedOn": "2026-05-15T10:31:07Z"
+    }
+}

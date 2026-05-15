@@ -1,1 +1,227 @@
-{}
+{
+    "YOUTUBE_ANDEA": {
+        "app_version": "20.21.35",
+        "patches_versions": [
+            "v4.0.1-dev.1"
+        ],
+        "cli_version": "v1.8.1",
+        "ms_epoch_since_patched": 1778871362344,
+        "date_patched": "2026-05-15 18:56:02.343554+05:30",
+        "app_dump": {
+            "app_name": "YOUTUBE_ANDEA",
+            "app_version": "20.21.35",
+            "experiment": true,
+            "cli_dl": "https://github.com/MorpheApp/morphe-cli/releases/latest",
+            "patches_dl_list": [
+                "https://github.com/anddea/revanced-patches/releases/latest-prerelease"
+            ],
+            "patches_dl": "https://github.com/anddea/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [
+                "custom-branding-icon-youtube",
+                "custom-branding-name-youtube",
+                "enable-debug-logging",
+                "hide-fullscreen-button",
+                "custom-branding-icon-for-youtube",
+                "custom-branding-name-for-youtube"
+            ],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "8b127792d67e794b6b478dd30523def44c3c5329f55c52c590c341ec34b31826.jar",
+                    "version": "v1.8.1"
+                },
+                "patches": {
+                    "file_name": "83b35c3eca1eea90434f33c6c7a8b4e18cf997d778e919b14ae432597ddcdb19.mpp",
+                    "version": "v4.0.1-dev.1"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "83b35c3eca1eea90434f33c6c7a8b4e18cf997d778e919b14ae432597ddcdb19.mpp",
+                    "version": "v4.0.1-dev.1"
+                }
+            ],
+            "no_of_patches": 0,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "YOUTUBE_ANDEA.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/4OhNJtqWb_Vw457qToaYlP6QJHO1tgXiICF0RZHS_q-lc9NL2Dxa86gPjoPoIkKjaVlNXlHFCuoHjGJ82zuqCwbclTSJC6Vq6TNAc4MNOreRCeAkS-3D1pYtne0Mr_Ma/hjJOTsL2RIQAhxXletEmKpA6H6zu2bb20OOzdtpTBAqP0QG0h2nFx05pN5rYamdV-N8O67k3FCJEIkSaHPBOfZ6Hgb72rE8VWFzgDujjnwytHbAWU2jPpR_vJiD21Kb5/kkvcUGCg9nVkSVbEnZOsTBFfX7clT_cQ3pL99mux2Qxo9XcfjvlmZ-9mddXYVP4As9btkaEgFwHGNheTSjcnPA==/",
+            "download_source": "https://youtube.en.uptodown.com/android",
+            "package_name": "com.google.android.andeayoutube",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true,
+            "cli_argsf": "morphe-cli",
+            "cli_lpargs": "",
+            "cli_pargs": "",
+            "cli_lp_args": {
+                "CMD": "list-patches",
+                "DESCRIPTIONS": "",
+                "FILTER_PACKAGE_NAME": "",
+                "INDEX": "-i",
+                "OPTIONS": "-o",
+                "PACKAGES": "-p",
+                "PATCHES": "--patches",
+                "PATCHES_POST": "",
+                "UNIVERSAL": "-u",
+                "VERSIONS": "-v"
+            },
+            "cli_p_args": {
+                "APK": "__POSITIONAL__",
+                "CMD": "patch",
+                "DISABLED": "-d",
+                "ENABLED": "-e",
+                "EXCLUSIVE": "--exclusive",
+                "FORCE": "--force",
+                "KEYSTORE": "--keystore",
+                "KEYSTORE_ENTRY_ALIAS": "--keystore-entry-alias=alias",
+                "KEYSTORE_ENTRY_PASSWORD": "--keystore-entry-password=ReVanced",
+                "KEYSTORE_PASSWORD": "--keystore-password=ReVanced",
+                "OPTIONS": "-O",
+                "OUTPUT": "-o",
+                "PATCHES": "-p",
+                "PATCHES_POST": "",
+                "PURGE": "--purge",
+                "RIP_LIB": "",
+                "STRIPLIBS": "--striplibs"
+            }
+        }
+    },
+    "REDDIT_ANDEA": {
+        "app_version": "2025.12.1",
+        "patches_versions": [
+            "v4.0.1-dev.1"
+        ],
+        "cli_version": "v1.8.1",
+        "ms_epoch_since_patched": 1778871341037,
+        "date_patched": "2026-05-15 18:55:41.036813+05:30",
+        "app_dump": {
+            "app_name": "REDDIT_ANDEA",
+            "app_version": "2025.12.1",
+            "experiment": false,
+            "cli_dl": "https://github.com/MorpheApp/morphe-cli/releases/latest",
+            "patches_dl_list": [
+                "https://github.com/anddea/revanced-patches/releases/latest-prerelease"
+            ],
+            "patches_dl": "https://github.com/anddea/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [
+                "change-package-name",
+                "custom-branding-name-for-reddit"
+            ],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "8b127792d67e794b6b478dd30523def44c3c5329f55c52c590c341ec34b31826.jar",
+                    "version": "v1.8.1"
+                },
+                "patches": {
+                    "file_name": "83b35c3eca1eea90434f33c6c7a8b4e18cf997d778e919b14ae432597ddcdb19.mpp",
+                    "version": "v4.0.1-dev.1"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "83b35c3eca1eea90434f33c6c7a8b4e18cf997d778e919b14ae432597ddcdb19.mpp",
+                    "version": "v4.0.1-dev.1"
+                }
+            ],
+            "no_of_patches": 15,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "REDDIT_ANDEA.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/4OhNJtqWb_Vw457qToaYlP6QJHO1tgXiICF0RZHS_q-QqXSqYp75_svlv7UPLZQUPEl4XG-L54FuOwqxzFDRHYCnddQ4zYSTA3mapGYYTjSe64G1JP3Tcx07GQw_ffy3/byq4048QQ-5As2necd5oOAn0xqmx-rXZduT7S6i6qmytL81Ayo95djxVI5yuxrNu1I-aiSHJ3LrGMtiCL4lHJZ6o_s2FrnhLoQMWJn1akUxEyrFrq5Pjvf8WJGU_lmOW/WZKZPWDbMfaw4bl0fPEowKVynfhMAOOwCz7BztleCkstsFIbY7PKf1v7V0Sb0IFUi1-HDUgvBOB_w9xLrXHTfd0Ke9qzUtAMnqsLEyq3f6k=/",
+            "download_source": "https://reddit-official-app.en.uptodown.com/android",
+            "package_name": "com.reddit.frontpage",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true,
+            "cli_argsf": "morphe-cli",
+            "cli_lpargs": "",
+            "cli_pargs": "",
+            "cli_lp_args": {
+                "CMD": "list-patches",
+                "DESCRIPTIONS": "",
+                "FILTER_PACKAGE_NAME": "",
+                "INDEX": "-i",
+                "OPTIONS": "-o",
+                "PACKAGES": "-p",
+                "PATCHES": "--patches",
+                "PATCHES_POST": "",
+                "UNIVERSAL": "-u",
+                "VERSIONS": "-v"
+            },
+            "cli_p_args": {
+                "APK": "__POSITIONAL__",
+                "CMD": "patch",
+                "DISABLED": "-d",
+                "ENABLED": "-e",
+                "EXCLUSIVE": "--exclusive",
+                "FORCE": "--force",
+                "KEYSTORE": "--keystore",
+                "KEYSTORE_ENTRY_ALIAS": "--keystore-entry-alias=alias",
+                "KEYSTORE_ENTRY_PASSWORD": "--keystore-entry-password=ReVanced",
+                "KEYSTORE_PASSWORD": "--keystore-password=ReVanced",
+                "OPTIONS": "-O",
+                "OUTPUT": "-o",
+                "PATCHES": "-p",
+                "PATCHES_POST": "",
+                "PURGE": "--purge",
+                "RIP_LIB": "",
+                "STRIPLIBS": "--striplibs"
+            }
+        }
+    },
+    "windy": {
+        "app_version": "latest",
+        "patches_versions": [
+            "v5.50.2"
+        ],
+        "cli_version": "v5.0.2",
+        "ms_epoch_since_patched": 1771509201901,
+        "date_patched": "2026-02-19 13:53:21.901149+05:30",
+        "app_dump": {
+            "app_name": "windy",
+            "app_version": "latest",
+            "experiment": false,
+            "cli_dl": "https://github.com/inotia00/revanced-cli/releases/latest",
+            "patches_dl_list": [
+                "https://github.com/revanced/revanced-patches/releases/latest"
+            ],
+            "patches_dl": "https://github.com/revanced/revanced-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "59e03b4fa52af9984fd49cfe5167c4f6bfd14074ef27c932c46557493f4d2ab5.jar",
+                    "version": "v5.0.2"
+                },
+                "patches": {
+                    "file_name": "2ce4d0138df0cfdc4a956892d7b524c1ce27dfe0d3826952d0ae25659b154345.rvp",
+                    "version": "v5.50.2"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "2ce4d0138df0cfdc4a956892d7b524c1ce27dfe0d3826952d0ae25659b154345.rvp",
+                    "version": "v5.50.2"
+                }
+            ],
+            "no_of_patches": 0,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "windy.apk",
+            "download_dl": "https://dw.uptodown.com/dwn/Oi39SOLJ1IfjiLepDinJzyw9tUYZfi0FwD67V7Sje7n9BrkUxjcOxR70wATiDPGi4kaSl4pA4ItMErUNUUIfT-Qf1h-PTzMkhVWIAyaJuw6xQ8D8iUENHiybGfwDGsyp/ss70SAnW7aK95jwnr4HRc4e6ovapBvdbvVXwdFQBTEjh27L9tJW6-c2gzgCkwnvQOun3g9p3gX3yPpIyuu8-J0WC-IDu4n8qaiwnwnyFXz0-7WKd2434r3mKqwwVfOFx/orCUYy3wdey4e_DIct4mkajXtD-sWrVXe667_Kfg-VKzxHam12VZKSHKfYg7ARa4hULg-_eYQFAUmLK060Sl3db_gR-rjS4alVTYhxWA5VE=/",
+            "download_source": "https://windy.en.uptodown.com/android",
+            "package_name": "co.windyapp.android",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true
+        }
+    }
+}
