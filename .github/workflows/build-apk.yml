@@ -92,6 +92,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build-apk:
+    permissions: write-all
     uses: ./.github/workflows/build-artifact.yml
     with:
       COMMIT_CHANGELOG: ${{ inputs.COMMIT_CHANGELOG }}
