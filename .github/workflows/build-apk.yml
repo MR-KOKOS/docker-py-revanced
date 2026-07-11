@@ -84,6 +84,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build-apk:
+    permissions: write-all
     uses: ./.github/workflows/build-artifact.yml
     with:
       COMMIT_CHANGELOG: ${{ inputs.COMMIT_CHANGELOG }}
@@ -100,6 +101,8 @@ jobs:
     timeout-minutes: 30
     needs: build-apk
     if: inputs.GITHUB_UPLOAD
+    permissions:
+      contents: write
 
     steps:
       - name: Download Already Built APKs
