@@ -1,1 +1,727 @@
-{}
+{
+    "youtube_music": {
+        "app_version": "8.40.54",
+        "patches_versions": [
+            "latest"
+        ],
+        "cli_version": "v6.0.0",
+        "ms_epoch_since_patched": 1779377039445,
+        "date_patched": "2026-05-21 15:23:59.444924+05:30",
+        "app_dump": {
+            "app_name": "youtube_music",
+            "app_version": "8.40.54",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl_list": [
+                "https://api.revanced.app/v5/patches.rvp"
+            ],
+            "patches_dl": "https://api.revanced.app/v5/patches.rvp",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "5dbb489a814e464aae79411a957343d1c555d1d7a984ee5f96c07d3261a23c28.jar",
+                    "version": "v6.0.0"
+                },
+                "patches": {
+                    "file_name": "e6ad90586d4742cb0dfb4f3e1eab85b4e138640760635cb6af3cd4e96240ade6.rvp",
+                    "version": "latest"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "e6ad90586d4742cb0dfb4f3e1eab85b4e138640760635cb6af3cd4e96240ade6.rvp",
+                    "version": "latest"
+                }
+            ],
+            "no_of_patches": 19,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "youtube_music.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=11091986&key=e8e66c14e267fe45dbc4718527dc2a81f82f0f9d&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/google-inc/youtube-music/",
+            "package_name": "com.google.android.apps.youtube.music",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true,
+            "cli_argsf": "",
+            "cli_lpargs": "",
+            "cli_pargs": "",
+            "cli_lp_args": {
+                "CMD": "list-patches",
+                "DESCRIPTIONS": "--descriptions",
+                "FILTER_PACKAGE_NAME": "",
+                "INDEX": "--index",
+                "OPTIONS": "--options",
+                "PACKAGES": "--packages",
+                "PATCHES": "-p",
+                "PATCHES_POST": "-b",
+                "UNIVERSAL": "--universal-patches",
+                "VERSIONS": "--versions"
+            },
+            "cli_p_args": {
+                "APK": "__POSITIONAL__",
+                "CMD": "patch",
+                "DISABLED": "-d",
+                "ENABLED": "-e",
+                "EXCLUSIVE": "--exclusive",
+                "FORCE": "--force",
+                "KEYSTORE": "--keystore",
+                "KEYSTORE_ENTRY_ALIAS": "--keystore-entry-alias=alias",
+                "KEYSTORE_ENTRY_PASSWORD": "--keystore-entry-password=ReVanced",
+                "KEYSTORE_PASSWORD": "--keystore-password=ReVanced",
+                "OPTIONS": "-O",
+                "OUTPUT": "-o",
+                "PATCHES": "-p",
+                "PATCHES_POST": "-b",
+                "PURGE": "--purge",
+                "RIP_LIB": "",
+                "STRIPLIBS": ""
+            },
+            "_cached_output_file_name": "Reyoutube_music-Version8.40.54-PatchVersionlatest-PatchSet8ce2192f7bf6-2026MAY21.0323PM-output.apk"
+        },
+        "output_file_name": "Reyoutube_music-Version8.40.54-PatchVersionlatest-PatchSet8ce2192f7bf6-2026MAY21.0323PM-output.apk"
+    },
+    "youtube": {
+        "app_version": "20.40.45",
+        "patches_versions": [
+            "latest"
+        ],
+        "cli_version": "v6.0.0",
+        "ms_epoch_since_patched": 1779377043595,
+        "date_patched": "2026-05-21 15:24:03.594675+05:30",
+        "app_dump": {
+            "app_name": "youtube",
+            "app_version": "20.40.45",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl_list": [
+                "https://api.revanced.app/v5/patches.rvp"
+            ],
+            "patches_dl": "https://api.revanced.app/v5/patches.rvp",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "5dbb489a814e464aae79411a957343d1c555d1d7a984ee5f96c07d3261a23c28.jar",
+                    "version": "v6.0.0"
+                },
+                "patches": {
+                    "file_name": "e6ad90586d4742cb0dfb4f3e1eab85b4e138640760635cb6af3cd4e96240ade6.rvp",
+                    "version": "latest"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "e6ad90586d4742cb0dfb4f3e1eab85b4e138640760635cb6af3cd4e96240ade6.rvp",
+                    "version": "latest"
+                }
+            ],
+            "no_of_patches": 60,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "youtube.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=11041405&key=2dcad209a6bb81271245a07fe341ef90d4fee2f8&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/google-inc/youtube/",
+            "package_name": "com.google.android.youtube",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true,
+            "cli_argsf": "",
+            "cli_lpargs": "",
+            "cli_pargs": "",
+            "cli_lp_args": {
+                "CMD": "list-patches",
+                "DESCRIPTIONS": "--descriptions",
+                "FILTER_PACKAGE_NAME": "",
+                "INDEX": "--index",
+                "OPTIONS": "--options",
+                "PACKAGES": "--packages",
+                "PATCHES": "-p",
+                "PATCHES_POST": "-b",
+                "UNIVERSAL": "--universal-patches",
+                "VERSIONS": "--versions"
+            },
+            "cli_p_args": {
+                "APK": "__POSITIONAL__",
+                "CMD": "patch",
+                "DISABLED": "-d",
+                "ENABLED": "-e",
+                "EXCLUSIVE": "--exclusive",
+                "FORCE": "--force",
+                "KEYSTORE": "--keystore",
+                "KEYSTORE_ENTRY_ALIAS": "--keystore-entry-alias=alias",
+                "KEYSTORE_ENTRY_PASSWORD": "--keystore-entry-password=ReVanced",
+                "KEYSTORE_PASSWORD": "--keystore-password=ReVanced",
+                "OPTIONS": "-O",
+                "OUTPUT": "-o",
+                "PATCHES": "-p",
+                "PATCHES_POST": "-b",
+                "PURGE": "--purge",
+                "RIP_LIB": "",
+                "STRIPLIBS": ""
+            },
+            "_cached_output_file_name": "Reyoutube-Version20.40.45-PatchVersionlatest-PatchSet8ce2192f7bf6-2026MAY21.0324PM-output.apk"
+        },
+        "output_file_name": "Reyoutube-Version20.40.45-PatchVersionlatest-PatchSet8ce2192f7bf6-2026MAY21.0324PM-output.apk"
+    },
+    "YOUTUBE_ANDEA": {
+        "app_version": "20.21.35",
+        "patches_versions": [
+            "v4.2.0-dev.2"
+        ],
+        "cli_version": "v1.9.1",
+        "ms_epoch_since_patched": 1783700973121,
+        "date_patched": "2026-07-10 16:29:33.120793+05:30",
+        "app_dump": {
+            "app_name": "YOUTUBE_ANDEA",
+            "app_version": "20.21.35",
+            "experiment": true,
+            "cli_dl": "https://github.com/MorpheApp/morphe-cli/releases/latest",
+            "patches_dl_list": [
+                "https://github.com/anddea/revanced-patches/releases/latest-prerelease"
+            ],
+            "patches_dl": "https://github.com/anddea/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [
+                "hide-accessibility-controls-dialog",
+                "custom-branding-icon-youtube",
+                "custom-branding-name-youtube",
+                "enable-debug-logging",
+                "hide-fullscreen-button",
+                "custom-branding-icon-for-youtube",
+                "custom-branding-name-for-youtube"
+            ],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "cda70cceb41ba065337f55196b4e6d37a4b24b779fed14916f8e8d331b7de705.jar",
+                    "version": "v1.9.1"
+                },
+                "patches": {
+                    "file_name": "f729ec3019c778f14e7d7b090de7632846dfde719459e782c6937ec8a60188b6.mpp",
+                    "version": "v4.2.0-dev.2"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "f729ec3019c778f14e7d7b090de7632846dfde719459e782c6937ec8a60188b6.mpp",
+                    "version": "v4.2.0-dev.2"
+                }
+            ],
+            "no_of_patches": 68,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "YOUTUBE_ANDEA.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=9474055&key=54b7de1d99ea9ae0300f97e85e5e5946e7a32b80&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/google-inc/youtube/",
+            "package_name": "com.google.android.youtube",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true,
+            "cli_argsf": "morphe-cli",
+            "effective_cli_argsf": "morphe-cli",
+            "cli_lpargs": "",
+            "cli_pargs": "",
+            "cli_lp_args": {
+                "CMD": "list-patches",
+                "DESCRIPTIONS": "",
+                "FILTER_PACKAGE_NAME": "",
+                "INDEX": "-i",
+                "OPTIONS": "-o",
+                "PACKAGES": "-p",
+                "PATCHES": "--patches",
+                "PATCHES_POST": "",
+                "TEMPORARY_FILES_PATH": "-t",
+                "UNIVERSAL": "-u",
+                "VERSIONS": "-v"
+            },
+            "cli_p_args": {
+                "APK": "__POSITIONAL__",
+                "CMD": "patch",
+                "CONTINUE_ON_ERROR": "--continue-on-error",
+                "DISABLED": "-d",
+                "ENABLED": "-e",
+                "EXCLUSIVE": "--exclusive",
+                "FORCE": "--force",
+                "KEYSTORE": "--keystore",
+                "KEYSTORE_ENTRY_ALIAS": "--keystore-entry-alias=alias",
+                "KEYSTORE_ENTRY_PASSWORD": "--keystore-entry-password=ReVanced",
+                "KEYSTORE_PASSWORD": "--keystore-password=ReVanced",
+                "OPTIONS": "-O",
+                "OUTPUT": "-o",
+                "PATCHES": "-p",
+                "PATCHES_POST": "",
+                "PURGE": "--purge",
+                "RIP_LIB": "",
+                "STRIPLIBS": "--striplibs",
+                "TEMPORARY_FILES_PATH": "-t"
+            },
+            "_cached_output_file_name": "ReYOUTUBE_ANDEA-Version20.21.35-PatchVersionv4.2.0.dev.2-PatchSet20edaf415fa3-2026JUL10.0429PM-output.apk"
+        },
+        "output_file_name": "ReYOUTUBE_ANDEA-Version20.21.35-PatchVersionv4.2.0.dev.2-PatchSet20edaf415fa3-2026JUL10.0429PM-output.apk"
+    },
+    "REDDIT_ANDEA": {
+        "app_version": "2026.27.0..2627061",
+        "patches_versions": [
+            "v4.2.0-dev.2"
+        ],
+        "cli_version": "v1.9.1",
+        "ms_epoch_since_patched": 1783700977673,
+        "date_patched": "2026-07-10 16:29:37.672998+05:30",
+        "app_dump": {
+            "app_name": "REDDIT_ANDEA",
+            "app_version": "2026.27.0..2627061",
+            "experiment": false,
+            "cli_dl": "https://github.com/MorpheApp/morphe-cli/releases/latest",
+            "patches_dl_list": [
+                "https://github.com/anddea/revanced-patches/releases/latest-prerelease"
+            ],
+            "patches_dl": "https://github.com/anddea/revanced-patches/releases/latest-prerelease",
+            "exclude_request": [
+                "change-package-name",
+                "custom-branding-name-for-reddit"
+            ],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "cda70cceb41ba065337f55196b4e6d37a4b24b779fed14916f8e8d331b7de705.jar",
+                    "version": "v1.9.1"
+                },
+                "patches": {
+                    "file_name": "f729ec3019c778f14e7d7b090de7632846dfde719459e782c6937ec8a60188b6.mpp",
+                    "version": "v4.2.0-dev.2"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "f729ec3019c778f14e7d7b090de7632846dfde719459e782c6937ec8a60188b6.mpp",
+                    "version": "v4.2.0-dev.2"
+                }
+            ],
+            "no_of_patches": 0,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "REDDIT_ANDEA.apkm",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=14613330&key=9378737fe55c61b1e4a29f479c6fb6b00f90c54f",
+            "download_source": "https://www.apkmirror.com/apk/reddit-inc/reddit/",
+            "package_name": "com.reddit.frontpage",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true,
+            "cli_argsf": "morphe-cli",
+            "effective_cli_argsf": "morphe-cli",
+            "cli_lpargs": "",
+            "cli_pargs": "",
+            "cli_lp_args": {
+                "CMD": "list-patches",
+                "DESCRIPTIONS": "",
+                "FILTER_PACKAGE_NAME": "",
+                "INDEX": "-i",
+                "OPTIONS": "-o",
+                "PACKAGES": "-p",
+                "PATCHES": "--patches",
+                "PATCHES_POST": "",
+                "TEMPORARY_FILES_PATH": "-t",
+                "UNIVERSAL": "-u",
+                "VERSIONS": "-v"
+            },
+            "cli_p_args": {
+                "APK": "__POSITIONAL__",
+                "CMD": "patch",
+                "CONTINUE_ON_ERROR": "--continue-on-error",
+                "DISABLED": "-d",
+                "ENABLED": "-e",
+                "EXCLUSIVE": "--exclusive",
+                "FORCE": "--force",
+                "KEYSTORE": "--keystore",
+                "KEYSTORE_ENTRY_ALIAS": "--keystore-entry-alias=alias",
+                "KEYSTORE_ENTRY_PASSWORD": "--keystore-entry-password=ReVanced",
+                "KEYSTORE_PASSWORD": "--keystore-password=ReVanced",
+                "OPTIONS": "-O",
+                "OUTPUT": "-o",
+                "PATCHES": "-p",
+                "PATCHES_POST": "",
+                "PURGE": "--purge",
+                "RIP_LIB": "",
+                "STRIPLIBS": "--striplibs",
+                "TEMPORARY_FILES_PATH": "-t"
+            },
+            "_cached_output_file_name": "ReREDDIT_ANDEA-Version2026.27.0..2627061-PatchVersionv4.2.0.dev.2-PatchSet20edaf415fa3-2026JUL10.0429PM-output.apk"
+        },
+        "output_file_name": "ReREDDIT_ANDEA-Version2026.27.0..2627061-PatchVersionv4.2.0.dev.2-PatchSet20edaf415fa3-2026JUL10.0429PM-output.apk"
+    },
+    "Windy": {
+        "app_version": "50.1.1.5001014",
+        "patches_versions": [
+            "v1.15.0-dev.1"
+        ],
+        "cli_version": "v1.11.0",
+        "ms_epoch_since_patched": 1784810286721,
+        "date_patched": "2026-07-23 12:38:06.720610+05:30",
+        "app_dump": {
+            "app_name": "Windy",
+            "app_version": "50.1.1.5001014",
+            "experiment": false,
+            "cli_dl": "https://github.com/MorpheApp/morphe-cli/releases/latest",
+            "patches_dl_list": [
+                "https://github.com/rushiranpise/morphe-patches/releases/latest-prerelease"
+            ],
+            "patches_dl": "https://github.com/rushiranpise/morphe-patches/releases/latest-prerelease",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "842834269eeb742caddeecd09d58abb574efb07bc816d6bf318b1e35d6e5b6df.jar",
+                    "version": "v1.11.0"
+                },
+                "patches": {
+                    "file_name": "ea39996513c6546ed47aad683e33a54f78ea6c3917b69d4cb130a45899ca4bde.mpp",
+                    "version": "v1.15.0-dev.1"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "ea39996513c6546ed47aad683e33a54f78ea6c3917b69d4cb130a45899ca4bde.mpp",
+                    "version": "v1.15.0-dev.1"
+                }
+            ],
+            "no_of_patches": 0,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "Windy.apkm",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=14505769&key=97988766f6a2fc50c73d2f55ec3540ce4c88cb3d",
+            "download_source": "https://www.apkmirror.com/apk/windyty-se/windy-wind-waves-and-hurricanes-forecast/",
+            "package_name": "co.windyapp.android",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true,
+            "cli_argsf": "morphe-cli",
+            "effective_cli_argsf": "morphe-cli",
+            "cli_lpargs": "",
+            "cli_pargs": "",
+            "cli_lp_args": {
+                "CMD": "list-patches",
+                "DESCRIPTIONS": "",
+                "FILTER_PACKAGE_NAME": "",
+                "INDEX": "-i",
+                "OPTIONS": "-o",
+                "PACKAGES": "-p",
+                "PATCHES": "--patches",
+                "PATCHES_POST": "",
+                "TEMPORARY_FILES_PATH": "",
+                "UNIVERSAL": "-u",
+                "VERSIONS": "-v"
+            },
+            "cli_p_args": {
+                "APK": "__POSITIONAL__",
+                "CMD": "patch",
+                "CONTINUE_ON_ERROR": "--continue-on-error",
+                "DISABLED": "-d",
+                "ENABLED": "-e",
+                "EXCLUSIVE": "--exclusive",
+                "FORCE": "--force",
+                "KEYSTORE": "--keystore",
+                "KEYSTORE_ENTRY_ALIAS": "--keystore-entry-alias=alias",
+                "KEYSTORE_ENTRY_PASSWORD": "--keystore-entry-password=ReVanced",
+                "KEYSTORE_PASSWORD": "--keystore-password=ReVanced",
+                "OPTIONS": "-O",
+                "OUTPUT": "-o",
+                "PATCHES": "-p",
+                "PATCHES_POST": "",
+                "PURGE": "",
+                "RIP_LIB": "",
+                "STRIPLIBS": "--striplibs",
+                "TEMPORARY_FILES_PATH": "-t"
+            },
+            "_cached_output_file_name": "ReWindy-Version50.1.1.5001014-PatchVersionv1.15.0.dev.1-PatchSet5e3807655110-2026JUL23.1238PM-output.apk"
+        },
+        "output_file_name": "ReWindy-Version50.1.1.5001014-PatchVersionv1.15.0.dev.1-PatchSet5e3807655110-2026JUL23.1238PM-output.apk"
+    },
+    "Twitch": {
+        "app_version": "25.3.0",
+        "patches_versions": [
+            "latest"
+        ],
+        "cli_version": "v6.0.0",
+        "ms_epoch_since_patched": 1783700967762,
+        "date_patched": "2026-07-10 16:29:27.762045+05:30",
+        "app_dump": {
+            "app_name": "Twitch",
+            "app_version": "25.3.0",
+            "experiment": false,
+            "cli_dl": "https://github.com/revanced/revanced-cli/releases/latest",
+            "patches_dl_list": [
+                "https://api.revanced.app/v5/patches.rvp"
+            ],
+            "patches_dl": "https://api.revanced.app/v5/patches.rvp",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "5dbb489a814e464aae79411a957343d1c555d1d7a984ee5f96c07d3261a23c28.jar",
+                    "version": "v6.0.0"
+                },
+                "patches": {
+                    "file_name": "e6ad90586d4742cb0dfb4f3e1eab85b4e138640760635cb6af3cd4e96240ade6.rvp",
+                    "version": "latest"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "e6ad90586d4742cb0dfb4f3e1eab85b4e138640760635cb6af3cd4e96240ade6.rvp",
+                    "version": "latest"
+                }
+            ],
+            "no_of_patches": 7,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "Twitch.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=10069792&key=0c8c412649a97b489de8064c92ca1ddb4d47ee89",
+            "download_source": "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/",
+            "package_name": "tv.twitch.android.app",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true,
+            "cli_argsf": "",
+            "effective_cli_argsf": "revanced-cli",
+            "cli_lpargs": "",
+            "cli_pargs": "",
+            "cli_lp_args": {
+                "CMD": "list-patches",
+                "DESCRIPTIONS": "--descriptions",
+                "FILTER_PACKAGE_NAME": "",
+                "INDEX": "--index",
+                "OPTIONS": "--options",
+                "PACKAGES": "--packages",
+                "PATCHES": "-p",
+                "PATCHES_POST": "-b",
+                "TEMPORARY_FILES_PATH": "",
+                "UNIVERSAL": "--universal-patches",
+                "VERSIONS": "--versions"
+            },
+            "cli_p_args": {
+                "APK": "__POSITIONAL__",
+                "CMD": "patch",
+                "CONTINUE_ON_ERROR": "",
+                "DISABLED": "-d",
+                "ENABLED": "-e",
+                "EXCLUSIVE": "--exclusive",
+                "FORCE": "--force",
+                "KEYSTORE": "--keystore",
+                "KEYSTORE_ENTRY_ALIAS": "--keystore-entry-alias=alias",
+                "KEYSTORE_ENTRY_PASSWORD": "--keystore-entry-password=ReVanced",
+                "KEYSTORE_PASSWORD": "--keystore-password=ReVanced",
+                "OPTIONS": "-O",
+                "OUTPUT": "-o",
+                "PATCHES": "-p",
+                "PATCHES_POST": "-b",
+                "PURGE": "--purge",
+                "RIP_LIB": "",
+                "STRIPLIBS": "",
+                "TEMPORARY_FILES_PATH": "-t"
+            },
+            "_cached_output_file_name": "ReTwitch-Version25.3.0-PatchVersionlatest-PatchSet8ce2192f7bf6-2026JUL10.0429PM-output.apk"
+        },
+        "output_file_name": "ReTwitch-Version25.3.0-PatchVersionlatest-PatchSet8ce2192f7bf6-2026JUL10.0429PM-output.apk"
+    },
+    "YOUTUBE_MORPHE": {
+        "app_version": "21.04.223",
+        "patches_versions": [
+            "v1.36.0-dev.10"
+        ],
+        "cli_version": "v1.11.0",
+        "ms_epoch_since_patched": 1784810290053,
+        "date_patched": "2026-07-23 12:38:10.053489+05:30",
+        "app_dump": {
+            "app_name": "YOUTUBE_MORPHE",
+            "app_version": "21.04.223",
+            "experiment": false,
+            "cli_dl": "https://github.com/MorpheApp/morphe-cli",
+            "patches_dl_list": [
+                "https://github.com/MorpheApp/morphe-patches/releases/latest-prerelease"
+            ],
+            "patches_dl": "https://github.com/MorpheApp/morphe-patches/releases/latest-prerelease",
+            "exclude_request": [
+                "custom-branding-icon-youtube",
+                "custom-branding-name-youtube",
+                "enable-debug-logging",
+                "hide-fullscreen-button",
+                "custom-branding-icon-for-youtube",
+                "custom-branding-name-for-youtube",
+                "custom-branding"
+            ],
+            "include_request": [
+                "change-package-name"
+            ],
+            "resource": {
+                "cli": {
+                    "file_name": "842834269eeb742caddeecd09d58abb574efb07bc816d6bf318b1e35d6e5b6df.jar",
+                    "version": "v1.11.0"
+                },
+                "patches": {
+                    "file_name": "442e9381cf9bb2aa73b505d82d2a1eefe30c724038ac03e810523d8e83f18bad.mpp",
+                    "version": "v1.36.0-dev.10"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "442e9381cf9bb2aa73b505d82d2a1eefe30c724038ac03e810523d8e83f18bad.mpp",
+                    "version": "v1.36.0-dev.10"
+                }
+            ],
+            "no_of_patches": 73,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options_yt_morphe.json",
+            "download_file_name": "YOUTUBE_MORPHE.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=12341062&key=f7a4ca815d1055cd1be6097ff7b9be0425fb3ff2&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/google-inc/youtube/",
+            "package_name": "com.google.android.youtube",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true,
+            "cli_argsf": "morphe-cli",
+            "effective_cli_argsf": "morphe-cli",
+            "cli_lpargs": "",
+            "cli_pargs": "",
+            "cli_lp_args": {
+                "CMD": "list-patches",
+                "DESCRIPTIONS": "",
+                "FILTER_PACKAGE_NAME": "",
+                "INDEX": "-i",
+                "OPTIONS": "-o",
+                "PACKAGES": "-p",
+                "PATCHES": "--patches",
+                "PATCHES_POST": "",
+                "TEMPORARY_FILES_PATH": "",
+                "UNIVERSAL": "-u",
+                "VERSIONS": "-v"
+            },
+            "cli_p_args": {
+                "APK": "__POSITIONAL__",
+                "CMD": "patch",
+                "CONTINUE_ON_ERROR": "--continue-on-error",
+                "DISABLED": "-d",
+                "ENABLED": "-e",
+                "EXCLUSIVE": "--exclusive",
+                "FORCE": "--force",
+                "KEYSTORE": "--keystore",
+                "KEYSTORE_ENTRY_ALIAS": "--keystore-entry-alias=alias",
+                "KEYSTORE_ENTRY_PASSWORD": "--keystore-entry-password=ReVanced",
+                "KEYSTORE_PASSWORD": "--keystore-password=ReVanced",
+                "OPTIONS": "-O",
+                "OUTPUT": "-o",
+                "PATCHES": "-p",
+                "PATCHES_POST": "",
+                "PURGE": "",
+                "RIP_LIB": "",
+                "STRIPLIBS": "--striplibs",
+                "TEMPORARY_FILES_PATH": "-t"
+            },
+            "_cached_output_file_name": "ReYOUTUBE_MORPHE-Version21.04.223-PatchVersionv1.36.0.dev.10-PatchSet2674c82a29f7-2026JUL23.1238PM-output.apk"
+        },
+        "output_file_name": "ReYOUTUBE_MORPHE-Version21.04.223-PatchVersionv1.36.0.dev.10-PatchSet2674c82a29f7-2026JUL23.1238PM-output.apk"
+    },
+    "Mapy": {
+        "app_version": "26.5.0",
+        "patches_versions": [
+            "v2.8.1"
+        ],
+        "cli_version": "v1.11.0",
+        "ms_epoch_since_patched": 1784810282403,
+        "date_patched": "2026-07-23 12:38:02.402711+05:30",
+        "app_dump": {
+            "app_name": "Mapy",
+            "app_version": "26.5.0",
+            "experiment": false,
+            "cli_dl": "https://github.com/MorpheApp/morphe-cli/releases/latest",
+            "patches_dl_list": [
+                "https://github.com/brosssh/morphe-patches/releases/latest"
+            ],
+            "patches_dl": "https://github.com/brosssh/morphe-patches/releases/latest",
+            "exclude_request": [],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "842834269eeb742caddeecd09d58abb574efb07bc816d6bf318b1e35d6e5b6df.jar",
+                    "version": "v1.11.0"
+                },
+                "patches": {
+                    "file_name": "b46e5f3602e61cffa8ce6f183ea8c8c8bcc49f9bd7cf1ad72d07e41eca88da89.mpp",
+                    "version": "v2.8.1"
+                }
+            },
+            "patch_bundles": [
+                {
+                    "name": "patches",
+                    "file_name": "b46e5f3602e61cffa8ce6f183ea8c8c8bcc49f9bd7cf1ad72d07e41eca88da89.mpp",
+                    "version": "v2.8.1"
+                }
+            ],
+            "no_of_patches": 1,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "Mapy.apkm",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=13765845&key=107dcb9849f31a36e3983ced0cc6b7577552c0ed",
+            "download_source": "https://www.apkmirror.com/apk/seznam-cz-a-s/mapy-cz-navigation-off-maps/",
+            "package_name": "cz.seznam.mapy",
+            "old_key": true,
+            "patches": [],
+            "space_formatted": true,
+            "cli_argsf": "morphe-cli",
+            "effective_cli_argsf": "morphe-cli",
+            "cli_lpargs": "",
+            "cli_pargs": "",
+            "cli_lp_args": {
+                "CMD": "list-patches",
+                "DESCRIPTIONS": "",
+                "FILTER_PACKAGE_NAME": "",
+                "INDEX": "-i",
+                "OPTIONS": "-o",
+                "PACKAGES": "-p",
+                "PATCHES": "--patches",
+                "PATCHES_POST": "",
+                "TEMPORARY_FILES_PATH": "",
+                "UNIVERSAL": "-u",
+                "VERSIONS": "-v"
+            },
+            "cli_p_args": {
+                "APK": "__POSITIONAL__",
+                "CMD": "patch",
+                "CONTINUE_ON_ERROR": "--continue-on-error",
+                "DISABLED": "-d",
+                "ENABLED": "-e",
+                "EXCLUSIVE": "--exclusive",
+                "FORCE": "--force",
+                "KEYSTORE": "--keystore",
+                "KEYSTORE_ENTRY_ALIAS": "--keystore-entry-alias=alias",
+                "KEYSTORE_ENTRY_PASSWORD": "--keystore-entry-password=ReVanced",
+                "KEYSTORE_PASSWORD": "--keystore-password=ReVanced",
+                "OPTIONS": "-O",
+                "OUTPUT": "-o",
+                "PATCHES": "-p",
+                "PATCHES_POST": "",
+                "PURGE": "",
+                "RIP_LIB": "",
+                "STRIPLIBS": "--striplibs",
+                "TEMPORARY_FILES_PATH": "-t"
+            },
+            "_cached_output_file_name": "ReMapy-Version26.5.0-PatchVersionv2.8.1-PatchSet3ef6655103ce-2026JUL23.1238PM-output.apk"
+        },
+        "output_file_name": "ReMapy-Version26.5.0-PatchVersionv2.8.1-PatchSet3ef6655103ce-2026JUL23.1238PM-output.apk"
+    }
+}
