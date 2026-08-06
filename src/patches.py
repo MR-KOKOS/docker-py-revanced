@@ -28,7 +28,7 @@ class Patches(object):
         "ginlemon.iconpackstudio": "icon_pack_studio",
         "com.ticktick.task": "ticktick",
         "tv.twitch.android.app": "twitch",
-        "co.windyapp.android": "windy",
+        "com.windyty.android": "windy",
         "org.totschnig.myexpenses": "my-expenses",
         "com.backdrops.wallpapers": "backdrops",
         "com.ithebk.expensemanager": "expensemanager",
