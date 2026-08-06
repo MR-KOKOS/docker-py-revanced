@@ -41,6 +41,10 @@ on:
         description: "Apps to be patched. Overrides any env set"
         required: false
         type: string
+      RELEASE_TAG:
+        description: "Release tag. Uses a timestamped Build-* tag when empty"
+        required: false
+        type: string
       DELETE_OLDER_RELEASES:
         description: "Delete older Build-* releases before uploading. Disable for partial builds so releases for apps not included in this run aren't lost."
         required: false
@@ -83,6 +87,10 @@ on:
         description: "Apps to be patched. Overrides any env set"
         required: false
         type: string
+      RELEASE_TAG:
+        description: "Release tag. Uses a timestamped Build-* tag when empty"
+        required: false
+        type: string
       DELETE_OLDER_RELEASES:
         description: "Delete older Build-* releases before uploading. Disable for partial builds so releases for apps not included in this run aren't lost."
         required: false
@@ -102,11 +110,17 @@ jobs:
     steps:
       - name: Get Date
         id: get-date
+        env:
+          RELEASE_TAG: ${{ inputs.RELEASE_TAG }}
         run: |
-          echo "tag=Build-$(TZ='Asia/Kolkata' date +"%Y.%m.%d-%H.%M.%S")" >> $GITHUB_OUTPUT
+          if [ -z "$RELEASE_TAG" ]; then
+            RELEASE_TAG="Build-$(TZ='Asia/Kolkata' date +"%Y.%m.%d-%H.%M.%S")"
+          fi
+          echo "tag=$RELEASE_TAG" >> "$GITHUB_OUTPUT"
 
   build-apk:
     needs: compute-tag
+    permissions: write-all
     uses: ./.github/workflows/build-artifact.yml
     with:
       COMMIT_CHANGELOG: ${{ inputs.COMMIT_CHANGELOG }}
@@ -125,6 +139,8 @@ jobs:
     timeout-minutes: 30
     needs: [ compute-tag, build-apk ]
     if: inputs.GITHUB_UPLOAD
+    permissions:
+      contents: write
 
     steps:
       - name: Download Already Built APKs
@@ -139,10 +155,31 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RELEASE_PATTERN: "Build*"
 
+      - name: Remove replaced APKs
+        env:
+          GH_REPO: ${{ github.repository }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ needs.compute-tag.outputs.RELEASE_TAG }}
+        run: |
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            for apk in apks/*-output.apk; do
+              prefix="${apk##*/}"
+              prefix="${prefix%%-Version*}-Version"
+              gh release view "$RELEASE_TAG" --json assets --jq '.assets[].name' | while read -r asset; do
+                case "$asset" in
+                  "$prefix"*) gh release delete-asset "$RELEASE_TAG" "$asset" --yes ;;
+                esac
+              done
+            done
+          fi
+
       - name: Upload Build Artifact
         uses: ncipollo/release-action@main
         with:
+          allowUpdates: true
           artifacts: "apks/*-output.apk,updates.json,changelog.json,changelog.md"
+          removeArtifacts: false
+          replacesArtifacts: true
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ needs.compute-tag.outputs.RELEASE_TAG }}
           artifactErrorsFailBuild: true
