@@ -1,1 +1,26 @@
-{}
+{
+    "REAndroid/APKEditor": {
+        "ResourceName": "[REAndroid/APKEditor](https://github.com/REAndroid/APKEditor/releases/tag/V1.4.9)",
+        "Version": "V1.4.9",
+        "Changelog": "## What's Changed\r\n* Fix: Merging issue #228 \r\n* Fix: Smali wide register handling #229 \r\n\r\n\r\n**Full Changelog**: https://github.com/REAndroid/APKEditor/compare/V1.4.8...V1.4.9",
+        "PublishedOn": "2026-05-19T11:25:01Z"
+    },
+    "MorpheApp/morphe-cli": {
+        "ResourceName": "[MorpheApp/morphe-cli](https://github.com/MorpheApp/morphe-desktop/releases/tag/v1.16.0)",
+        "Version": "v1.16.0",
+        "Changelog": "# [1.16.0](https://github.com/MorpheApp/morphe-desktop/compare/v1.15.1...v1.16.0) (2026-09-14)\n\n\n### Bug Fixes\n\n* Resolve `Boolean/String` type mismatch when applying patch options from GUI ([#308](https://github.com/MorpheApp/morphe-desktop/issues/308)) ([c7c4a11](https://github.com/MorpheApp/morphe-desktop/commit/c7c4a110c285fe445b859effc6da98f92aa3a441))\n* Update to latest Patcher ([89e3868](https://github.com/MorpheApp/morphe-desktop/commit/89e3868d941651c6cd4a528a048cde7a454ca3fa))\n* Update to latest Patcher ([4f878dd](https://github.com/MorpheApp/morphe-desktop/commit/4f878dd3ff474551b11299b56ab0104e260f0c19))\n\n\n### Features\n\n* Prerelease aware updates + Changelog scoped badges + Overhauled \"Your Apps\" sheet + UI fixes ([#272](https://github.com/MorpheApp/morphe-desktop/issues/272)) ([5cdf1a0](https://github.com/MorpheApp/morphe-desktop/commit/5cdf1a00e6119afcf27ad8393c2b33873c5cd917)), closes [#259](https://github.com/MorpheApp/morphe-desktop/issues/259)\n",
+        "PublishedOn": "2026-09-14T18:46:26Z"
+    },
+    "rushiranpise/morphe-patches": {
+        "ResourceName": "[rushiranpise/morphe-patches](https://github.com/rushiranpise/morphe-patches/releases/tag/v1.22.0)",
+        "Version": "v1.22.0",
+        "Changelog": "## [1.22.0](https://github.com/rushiranpise/morphe-patches/compare/v1.21.5...v1.22.0) (2026-09-15)\n\n### \ud83d\udc1b Bug Fixes\n\n* build ([81207e1](https://github.com/rushiranpise/morphe-patches/commit/81207e12513860720ac4f56c90d582a0c7e008b6))\n* update few apps ([cf6ac31](https://github.com/rushiranpise/morphe-patches/commit/cf6ac31af3126935169fa7f3dae7fff56451416d))\n\n### \u2728 New Features\n\n* **google-photos:** add custom launcher branding ([e4f5e87](https://github.com/rushiranpise/morphe-patches/commit/e4f5e87e6afe0f04c257c78feccad66895bd106c))\n",
+        "PublishedOn": "2026-09-15T20:58:05Z"
+    },
+    "MorpheApp/morphe-patches": {
+        "ResourceName": "[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.44.0-dev.9)",
+        "Version": "v1.44.0-dev.9",
+        "Changelog": "## [1.44.0-dev.9](https://github.com/MorpheApp/morphe-patches/compare/v1.44.0-dev.8...v1.44.0-dev.9) (2026-09-19)\n\n### \ud83d\udc1b Bug Fixes\n\n* **YouTube - Minimal miniplayer:** Controls fade-in animation doesn't work ([396a0bc](https://github.com/MorpheApp/morphe-patches/commit/396a0bcd333423bb17cbe501599e70d80591f8d0))\n* **YouTube - Minimal miniplayer:** Interpolate minimizing transitions. ([13e653a](https://github.com/MorpheApp/morphe-patches/commit/13e653a68943b548728d85042e6785058b3cedb2))\n\n### \ud83d\ude80 Updated App Support\n\n* **Reddit:** Add experimental support for `2026.38.0` ([404fc59](https://github.com/MorpheApp/morphe-patches/commit/404fc599fa082fd958780450a1ec57476295c712))\n",
+        "PublishedOn": "2026-09-19T15:08:08Z"
+    }
+}
