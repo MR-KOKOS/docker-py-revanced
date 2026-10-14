@@ -1,1 +1,26 @@
-{}
+{
+    "REAndroid/APKEditor": {
+        "ResourceName": "[REAndroid/APKEditor](https://github.com/REAndroid/APKEditor/releases/tag/V1.4.9)",
+        "Version": "V1.4.9",
+        "Changelog": "## What's Changed\r\n* Fix: Merging issue #228 \r\n* Fix: Smali wide register handling #229 \r\n\r\n\r\n**Full Changelog**: https://github.com/REAndroid/APKEditor/compare/V1.4.8...V1.4.9",
+        "PublishedOn": "2026-05-19T11:25:01Z"
+    },
+    "MorpheApp/morphe-cli": {
+        "ResourceName": "[MorpheApp/morphe-cli](https://github.com/MorpheApp/morphe-desktop/releases/tag/v1.18.1)",
+        "Version": "v1.18.1",
+        "Changelog": "## [1.18.1](https://github.com/MorpheApp/morphe-desktop/compare/v1.18.0...v1.18.1) (2026-10-05)\r\n\r\n### Performance Improvements\r\n\r\n* Use multi-threaded file cleanup ([6976ee6](https://github.com/MorpheApp/morphe-desktop/commit/6976ee6795d316b93a9a9ab3b6e4e7637b4999a2))\r\n",
+        "PublishedOn": "2026-10-05T11:51:56Z"
+    },
+    "rushiranpise/morphe-patches": {
+        "ResourceName": "[rushiranpise/morphe-patches](https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.0-dev.1)",
+        "Version": "v1.23.0-dev.1",
+        "Changelog": "## [1.23.0-dev.1](https://github.com/rushiranpise/morphe-patches/compare/v1.22.0...v1.23.0-dev.1) (2026-09-20)\n\n### \ud83d\udc1b Bug Fixes\n\n* remove Relane patches ([6e3fd04](https://github.com/rushiranpise/morphe-patches/commit/6e3fd045b219ac3650cacda5c9ba2a2ef7562ed2)), closes [#1033](https://github.com/rushiranpise/morphe-patches/issues/1033)\n\n### \u2728 New Features\n\n* **life360:** add themed icon patch with adaptive support ([e7301d3](https://github.com/rushiranpise/morphe-patches/commit/e7301d324e4386f470e4299c44f10f8f959de950))\n",
+        "PublishedOn": "2026-09-20T12:55:20Z"
+    },
+    "MorpheApp/morphe-patches": {
+        "ResourceName": "[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.48.0-dev.7)",
+        "Version": "v1.48.0-dev.7",
+        "Changelog": "## [1.48.0-dev.7](https://github.com/MorpheApp/morphe-patches/compare/v1.48.0-dev.6...v1.48.0-dev.7) (2026-10-14)\n\n### \ud83d\udc1b Bug Fixes\n\n* **YouTube - Jam queue sharing:** Keep the YouTube Music player aligned when Jam queue sharing is off ([#3704](https://github.com/MorpheApp/morphe-patches/issues/3704)) ([fd0db0b](https://github.com/MorpheApp/morphe-patches/commit/fd0db0b04bc12f80acde7fc259d7f72dbf724b13))\n\n### \u2728 New Features\n\n* **YouTube Music - Third-party lyrics:** Add new providers ([#3717](https://github.com/MorpheApp/morphe-patches/issues/3717)) ([89e31ba](https://github.com/MorpheApp/morphe-patches/commit/89e31ba6d69e26a08b5bdd97b3afb4daa927048f))\n",
+        "PublishedOn": "2026-10-14T09:07:59Z"
+    }
+}
