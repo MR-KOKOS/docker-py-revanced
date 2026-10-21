@@ -1,1 +1,26 @@
-{}
+{
+    "REAndroid/APKEditor": {
+        "ResourceName": "[REAndroid/APKEditor](https://github.com/REAndroid/APKEditor/releases/tag/V1.4.9)",
+        "Version": "V1.4.9",
+        "Changelog": "## What's Changed\r\n* Fix: Merging issue #228 \r\n* Fix: Smali wide register handling #229 \r\n\r\n\r\n**Full Changelog**: https://github.com/REAndroid/APKEditor/compare/V1.4.8...V1.4.9",
+        "PublishedOn": "2026-05-19T11:25:01Z"
+    },
+    "MorpheApp/morphe-cli": {
+        "ResourceName": "[MorpheApp/morphe-cli](https://github.com/MorpheApp/morphe-desktop/releases/tag/v1.18.1)",
+        "Version": "v1.18.1",
+        "Changelog": "## [1.18.1](https://github.com/MorpheApp/morphe-desktop/compare/v1.18.0...v1.18.1) (2026-10-05)\r\n\r\n### Performance Improvements\r\n\r\n* Use multi-threaded file cleanup ([6976ee6](https://github.com/MorpheApp/morphe-desktop/commit/6976ee6795d316b93a9a9ab3b6e4e7637b4999a2))\r\n",
+        "PublishedOn": "2026-10-05T11:51:56Z"
+    },
+    "rushiranpise/morphe-patches": {
+        "ResourceName": "[rushiranpise/morphe-patches](https://github.com/rushiranpise/morphe-patches/releases/tag/v1.23.0)",
+        "Version": "v1.23.0",
+        "Changelog": "## [1.23.0](https://github.com/rushiranpise/morphe-patches/compare/v1.22.0...v1.23.0) (2026-10-14)\n\n### \ud83d\udc1b Bug Fixes\n\n* remove Relane patches ([29819ed](https://github.com/rushiranpise/morphe-patches/commit/29819edeab47def853a57a52a5b5fd6f5db6dbdc)), closes [#1033](https://github.com/rushiranpise/morphe-patches/issues/1033)\n* update verified app versions ([5ca039c](https://github.com/rushiranpise/morphe-patches/commit/5ca039c16f9d766678d5c697d6dee6cd19f67f7a))\n\n### \u2728 New Features\n\n* **life360:** add themed icon patch with adaptive support ([83226e3](https://github.com/rushiranpise/morphe-patches/commit/83226e3034b86e8923915cf09831ad394d291d19))\n",
+        "PublishedOn": "2026-10-14T17:39:11Z"
+    },
+    "MorpheApp/morphe-patches": {
+        "ResourceName": "[MorpheApp/morphe-patches](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.48.0-dev.17)",
+        "Version": "v1.48.0-dev.17",
+        "Changelog": "## [1.48.0-dev.17](https://github.com/MorpheApp/morphe-patches/compare/v1.48.0-dev.16...v1.48.0-dev.17) (2026-10-21)\n\n### \ud83d\udc1b Bug Fixes\n\n* **YouTube - Navigation bar:** bug: Navigation bar is not disabled in shorts player ([03f3aa2](https://github.com/MorpheApp/morphe-patches/commit/03f3aa27bc48cfb23a54c723065c83283eed6bc2))\n* **YouTube - Navigation bar:** Navigation bar grows and covers the page when the keyboard is open ([7ec9a54](https://github.com/MorpheApp/morphe-patches/commit/7ec9a549a75798c76439a38400dbc325b7cd78df))\n* **YouTube - Spoof video streams:** In-app downloads are slow when using spoof streaming ([6a8b5a9](https://github.com/MorpheApp/morphe-patches/commit/6a8b5a976c011ea1d365e90db143c9b4d8745976))\n\n### \u2728 New Features\n\n* **YouTube Music - Android Auto:** Add Home, Library, and search features ([#3852](https://github.com/MorpheApp/morphe-patches/issues/3852)) ([65e200f](https://github.com/MorpheApp/morphe-patches/commit/65e200f623efc8b651a338360555884b717e05af))\n",
+        "PublishedOn": "2026-10-21T08:24:32Z"
+    }
+}
